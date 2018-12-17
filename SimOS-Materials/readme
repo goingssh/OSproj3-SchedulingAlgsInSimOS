@@ -1,0 +1,11 @@
+use command "make" to compile.
+use command "make clean" to remove compiled files.
+
+run with "./osSIM #CPU" for basic FIFO scheduler on given # CPU's.
+
+once implemented, add options to run your new scheduling algorithms
+"-r time_slice" will use round-robin alg with given time_slice
+"-p" will use static priority alg with priorities defined in proc.c
+
+EXTRA CREDIT: "-m time_slice" will use multilevel feedback scheduling algorithm with given time_slice.
+

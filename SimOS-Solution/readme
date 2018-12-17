@@ -1,0 +1,11 @@
+use command "make" to compile.
+use command "make clean" to remove compiled files.
+
+run with "./osSIM #CPU" for basic FIFO scheduler on given # CPU's.
+
+add options to run other scheduling algorithms
+"-r time_slice" will use round-robin alg with given time_slice
+"-p" will use static priority alg with priorities defined in proc.c
+"-m time_slice" will use multilevel feedback scheduling algorithm with given time_slice.
+
+For testing - the standard processes provided are not useful for showing the effect of MLF scheduling, may run tests using better provided processes in multLevelProcesses folder by copying those files over the current proc.c and proc.h, then executing "make clean" followed by another "make".  This is a terrible way to do this but alas the pressure of grading on time... The original files are in the folder standardProcesses so you don't have to worry about losing those when you move the multilevel ones in.
